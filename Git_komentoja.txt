@@ -1,0 +1,29 @@
+lataa GitHub desktop
+git-scm.com/downloads
+
+git config --global user.name "Riku Punakallio" # Asettaa koneelle globaalin "käyttäjänimen"
+git config user.name # Tarkista käyttäjänimi
+git config user.name "Riku Punakallio" # Asettaa käyttäjänimen
+git config user.email # Sähköposti
+git init # Alustaa kansion gitin käyttöön
+git status
+git add main.py biisit.txt # Lisää tiedostoja "välivaiheeseen"
+git rm --cached biisit.txt # Poistaa tiedoston "välivaiheesta"
+git add tiedoston_nimi # Lisää vain kyseisen tiedoston
+git add . # Lisää kaikki tiedostot
+git commit -m "add/edit/modify/delete/change mitä tehty" # Tekee "commitin" ja "tyhjentää" välivaiheen
+git log # Näyttää mitä laitettu ja saa hashit selville
+git log --oneline # Pelkistetty versio edellisestä
+git restore tiedostonnimi.xxx # Palauttaa edelliseen tilaan tiedoston
+git checkout xxxxx # Voi vaihtaa "vaiheen" missä työskennellään
+git checkout master # Siirtyy viimeisimpään committiin
+git branch # Näyttää missä branchissa olet
+git branch nimi # Luo uuden branchin
+git switch nimi # Siirtyy branchisat toiseen
+git tag v.1.0 # Luo tagin
+git reflog # Näkee mitä tehty
+
+dir /a # Näyttää piilotetut kansiot myös
+explorer . # Avaa resurssienhallinnan kyseiseen kansioon
+code . # Avaa visual studio coden kyseiseen kansioon
+cmd # Resurssienhallinnassa avaa komentokehotteen kyseiseen kansioon
