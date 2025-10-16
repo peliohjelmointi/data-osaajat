@@ -1,0 +1,8 @@
+git --version or git-v
+git config --global user.name "name surname"
+git config --global user.email "email
+git config user.name
+git config user.email
+git config --global core.editor "code --wait"
+git config --global -e
+git config --global core.autocrlf    # true
